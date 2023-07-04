@@ -1,0 +1,27 @@
+.home {
+  &__title {
+    text-align: center;
+  }
+  &__form {
+    margin-top: 80px;
+  }
+  &__tags {
+    margin-top: 60px;
+  }
+  &__company {
+    margin-top: 60px;
+    h2 {
+      margin-bottom: 80px;
+    }
+  }
+}
+
+.company {
+  margin-bottom: 200px;
+  &__name {
+    margin-top: 0;
+  }
+  &__address {
+    margin-bottom: 0;
+  }
+}

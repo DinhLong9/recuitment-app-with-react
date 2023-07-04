@@ -1,0 +1,21 @@
+.btn {
+  margin: 0 8px;
+}
+.LayoutHeader {
+  background-color: #fff;
+  &__admin {
+    display: inline-block;
+    min-width: 230px;
+    text-align: center;
+    border-right: 1px solid #ddd;
+    transition: all 0.1s ease-out;
+    &--collsapsed {
+      min-width: 80px;
+    }
+  }
+  &__home {
+    &--btn {
+      margin: 0 8px;
+    }
+  }
+}
